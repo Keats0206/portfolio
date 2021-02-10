@@ -1,0 +1,24 @@
+.section2-container{
+  width: 80%;
+  min-height: 100vh;
+}
+
+.section2-container h1{
+  align-items: center;
+  top: 100%;
+  padding-top: 25px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  @media all and (max-width: 800px) {
+    .cards-container {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+  }

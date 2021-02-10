@@ -1,0 +1,9 @@
+.social-container {
+    z-index: 5;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    height: 200px;
+    width: 50px;
+    padding: 0 40px;
+  }
