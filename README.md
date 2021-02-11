@@ -1,1 +1,1 @@
-Personal profile built with love in Brooklyn
+V1 of my personal profile - made with love in Brooklyn
