@@ -21,9 +21,9 @@ export default function Section2() {
               body='A tool for music producers to access metadata about songs using the Spotify API.'
               git='https://github.com/Keats0206/remix-assist'
               url='http://www.remixassist.com/'
-              skill1=''
-              skill2=''
-              skill3=''
+              skill1='ReactJS'
+              skill2='SpotifyAPI'
+              skill3='OAuth'
             ></Card>
             <Card
               imageUrl='https://images.unsplash.com/photo-1541410702738-f87a5449e456?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGNyeXB0b3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'
@@ -31,9 +31,9 @@ export default function Section2() {
               body='A dynamic crypto currency tracker build with the CoinGecko API'
               git='https://github.com/Keats0206/crypto-tracker'
               url='https://whispering-ocean-30053.herokuapp.com/'
-              skill1=''
-              skill2=''
-              skill3=''
+              skill1='ReactJS'
+              skill2='CoinAPI'
+              skill3='MaterialUI'
             ></Card>
             <Card
               imageUrl='https://images.unsplash.com/photo-1585834377505-625794024e04?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2167&q=80'
@@ -41,9 +41,9 @@ export default function Section2() {
               body='A landing page concept for an MVP creator platform launch that collects emails in Airtable'
               git='https://github.com/Keats0206/creatorrush'
               url='https://creatorrush.herokuapp.com/'
-              skill1=''
-              skill2=''
-              skill3=''
+              skill1='ReactJS'
+              skill2='HTML/CSS'
+              skill3='Airtable'
             ></Card>
         </div>
         </div>
