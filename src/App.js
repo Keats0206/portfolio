@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-
 import Section1 from './components/section1/section1.component';
 import Section2 from './components/section2/section2.component';
 import Section3 from './components/section3/section3.component';
