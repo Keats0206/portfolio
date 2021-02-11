@@ -14,24 +14,27 @@ const Header = () => {
       <div className="logo-nav">
         <ul className={click ? "nav-options active" : "nav-options"}>
           <li className="option" onClick={closeMobileMenu}>
-            <Link activeClass="active" to="section1" spy={true} smooth={true} duration={800}>
+            <Link activeClass="active" to="section1" spy={true} smooth={true} duration={800} onClick={closeMobileMenu}>
                 About
             </Link>
           </li>
           <li className="option" onClick={closeMobileMenu}>
-            <Link activeClass="active" to="section2" spy={true} smooth={true} duration={800}>
+            <Link activeClass="active" to="section2" spy={true} smooth={true} duration={800} onClick={closeMobileMenu}>
                 Development
             </Link>
           </li>
           <li className="option" onClick={closeMobileMenu}>
-            <Link activeClass="active" to="section3" spy={true} smooth={true} duration={800}>
-                    Contact
+            <Link activeClass="active" to="section3" spy={true} smooth={true} duration={800} onClick={closeMobileMenu}>
+                Contact
             </Link>
           </li>
           <li className=" option mobile-option" onClick={closeMobileMenu}>
-            <a href="" className="Contact">
-              SIGN-UP
-            </a>
+            <button 
+              onClick={() => {
+                  window.location.href = `mailto:pete@pekeating.com`;
+                }}>
+                Say Hello
+              </button>
           </li>
         </ul>
       </div>

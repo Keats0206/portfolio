@@ -15,6 +15,9 @@ const WrapperStyled = styled.div`
     h2 {
       font-family: Montserrat;
     }
+    h3 {
+      font-family: Montserrat;
+    }
     p {
       font-family: Roboto;
       font-size: 18px;
