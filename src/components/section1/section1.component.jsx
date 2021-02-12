@@ -17,7 +17,7 @@ export default function Section1() {
           </div>
           <div className="section1-name">
             <h2>
-            — Pete Keating is a Product Designer, junior developer (ReactJS & SwiftUI) and musician living in New York City.
+            — Pete Keating is a frontend developer, designer, NFT enthusiast, and musician living in New York City.
             </h2>
           </div>
         </div>
