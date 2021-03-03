@@ -16,6 +16,17 @@ export default function Section2() {
           </div>
         <div className="cards-container">
             <Card
+              imageUrl='https://images.unsplash.com/photo-1600196024905-e0cd65ddc6f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'
+              title="Mint.World"
+              body='A social network for discovering NFT Digital Collectibles'
+              git='https://github.com/Keats0206/mintworld'
+              url='https://mintworld.on.fleek.co/'
+              skill1='ReactJS'
+              skill2='Web3'
+              skill3='TheGraph'
+            >
+            </Card>
+            <Card
               imageUrl='https://images.unsplash.com/photo-1577930595497-05902654453e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8ZGp8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'
               title="Remix Assist"
               body='A tool for music producers to access metadata about songs using the Spotify API.'
@@ -34,16 +45,6 @@ export default function Section2() {
               skill1='ReactJS'
               skill2='CoinAPI'
               skill3='MaterialUI'
-            ></Card>
-            <Card
-              imageUrl='https://images.unsplash.com/photo-1585834377505-625794024e04?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2167&q=80'
-              title="Creator Rush"
-              body='A landing page concept for an MVP creator platform launch that collects emails in Airtable'
-              git='https://github.com/Keats0206/creatorrush'
-              url='https://creatorrush.herokuapp.com/'
-              skill1='ReactJS'
-              skill2='HTML/CSS'
-              skill3='Airtable'
             ></Card>
         </div>
         </div>
